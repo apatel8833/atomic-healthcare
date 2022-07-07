@@ -1,0 +1,1053 @@
+
+@font-face {
+    font-family: pihu;
+    src: url(./img/fonnntt.ttf);
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: pihu;
+    /* font-family: 'Stick No Bills', sans-serif; */
+
+
+
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+#first {
+    height: 100vh;
+    width: 100%;
+    /* overflow-x: hidden; */
+
+}
+
+.video1 {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    overflow-x: hidden;
+
+}
+
+.smalltxt {
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    top: 10%;
+    left: 10%;
+    z-index: 99;
+    /* border: 1px solid black; */
+
+
+
+}
+
+.smalltxt>h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    z-index: 99;
+}
+
+.largetxt {
+    position: absolute;
+    height: 70%;
+    width: 55%;
+    top: 30%;
+    left: 10%;
+    /* border: 1px solid black; */
+
+
+
+}
+
+.largetxt>h1 {
+    color: white;
+    font-size: 140px;
+    font-weight: 300;
+    
+    opacity: 1;
+
+}
+
+.largetxt>h1:nth-child(2) {
+    position: absolute;
+    top: 30%;
+
+}
+
+.largetxt>h1:nth-child(3) {
+    position: absolute;
+    top: 60%;
+
+}
+
+#sec {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+#sec .txt {
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    /* border: 1px solid black; */
+    top: 20%;
+    left: 10%;
+}
+
+.txt>h1 {
+    color: rgb(2, 2, 199);
+    font-size: 60px;
+    font-weight: 300;
+    opacity: 1;
+   
+
+}
+
+#third {
+    position: relative;
+    height: 200vh;
+    width: 100%;
+
+
+
+}
+
+.first {
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    background-color: aquamarine;
+    /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a3239ce9fd89996201548c_patina.jpg);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50px;
+}
+
+.img1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+
+
+
+}
+
+.sec {
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    top: 52%;
+    left: 10%;
+    background-color: aquamarine;
+    /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a35dd7deab782f8e5826f1_uzurv-preview.jpg);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50px;
+}
+
+.img2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+
+
+
+}
+
+#fourth {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#fourth>.txt2 {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top: 20%;
+    left: 10%;
+    /* border: 1px solid black; */
+}
+
+.txt2>h1 {
+    color: rgb(2, 2, 199);
+    font-size: 60px;
+    font-weight: 300;
+    opacity: 1;
+}
+
+a {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 2, 199);
+    text-decoration: none;
+    margin-top: 40px;
+
+}
+
+.ap {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 66%;
+    left: 30%;
+}
+
+#fifth {
+    position: relative;
+    height: 200vh;
+    width: 100%;
+
+
+
+}
+
+.third {
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    background-color: aquamarine;
+    /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a3239ce9fd89996201548c_patina.jpg);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50px;
+}
+
+.img3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+
+
+
+}
+
+.fourth {
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    top: 52%;
+    left: 10%;
+    background-color: aquamarine;
+    /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a35dd7deab782f8e5826f1_uzurv-preview.jpg);
+    background-size: cover;
+    background-position: center; */
+    border-radius: 50px;
+}
+
+.img4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+
+
+
+}
+
+#sixth {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#sixth .txt3 {
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    /* border: 1px solid black; */
+    top: 10%;
+    left: 10%;
+}
+
+.txt3 h1 {
+    color: rgb(2, 2, 199);
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+
+.navbar1 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+
+}
+
+.navbar1 ul {
+    list-style: none;
+}
+
+.navbar1 ul li {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(98, 98, 211);
+
+}
+
+.navbar2 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    left: 35%;
+
+}
+
+.navbar2 ul {
+    list-style: none;
+}
+
+.navbar2 ul li {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(98, 98, 211);
+
+}
+
+.navbar3 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+
+}
+
+.navbar3 ul {
+    list-style: none;
+}
+
+.navbar3 ul li {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 300;
+    color: rgb(98, 98, 211);
+
+}
+
+ul li:nth-child(1) {
+    margin-bottom: 40px;
+    color: palevioletred;
+}
+
+.seventh {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(2, 2, 196);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+
+}
+
+.video2 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    /* height: 100vh;
+    width: 100%; */
+
+
+}
+
+.last h3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+
+}
+
+.last h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 120px;
+    /* font-weight: 300; */
+    color: white;
+
+}
+
+.last h4 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(167, 163, 159);
+
+
+}
+
+.last h5 {
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(167, 163, 159);
+
+
+}
+
+.fifth {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.cir {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    top: 10%;
+    right: 10%;
+
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.m {
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 300;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.c {
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 300;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.layer{
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+    z-index: 9;
+    top: -100%;
+
+}
+
+.layer>h1{
+    color: aliceblue;
+    font-size: 90px;
+    font-weight: 300;
+    position: absolute;
+
+}
+.layer>h1:nth-child(1){
+    position: absolute;
+    left: 10%;
+    top: 30%;
+
+}
+.layer>h1:nth-child(2){
+    position: absolute;
+    left: 10%;
+
+    top: 43%;
+    
+}
+.layer>h1:nth-child(3){
+    position: absolute;
+    left: 10%;
+
+    top: 56%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+    #first {
+        height: 100vh;
+        width: 100%;
+        /* overflow-x: hidden; */
+
+    }
+
+    .video1 {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: -1;
+        overflow-x: hidden;
+
+    }
+
+    .smalltxt {
+        position: absolute;
+        height: 20%;
+        width: 10%;
+        top: 10%;
+        left: 10%;
+        /* border: 1px solid black; */
+
+
+
+    }
+
+    .smalltxt>h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .largetxt {
+        position: absolute;
+        height: 70%;
+        width: 75%;
+        top: 30%;
+        left: 10%;
+        /* border: 1px solid black; */
+
+
+
+    }
+
+    .largetxt>h1 {
+        color: white;
+        font-size: 72px;
+        font-weight: 300;
+        /* opacity: 1; */
+
+    }
+
+    .largetxt>h1:nth-child(2) {
+        position: absolute;
+        top: 20%;
+
+    }
+
+    .largetxt>h1:nth-child(3) {
+        position: absolute;
+        top: 40%;
+
+    }
+
+    #sec {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        /* overflow-x: hidden; */
+
+    }
+
+    #sec .txt {
+        position: absolute;
+        height: 50%;
+        width: 80%;
+        /* border: 1px solid black; */
+        top: 20%;
+        left: 10%;
+    }
+
+    .txt>h1 {
+        color: rgb(2, 2, 199);
+        font-size: 35px;
+        font-weight: 300;
+        opacity: 1;
+
+    }
+
+    #third {
+        position: relative;
+        height: 200vh;
+        width: 100%;
+
+
+
+    }
+
+    .first {
+        position: absolute;
+        height: 35%;
+        width: 80%;
+        top: 5%;
+        left: 10%;
+        background-color: aquamarine;
+        /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a3239ce9fd89996201548c_patina.jpg);
+        background-size: cover;
+        background-position: center; */
+        border-radius: 50px;
+    }
+
+    .img1 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+
+
+
+    }
+
+    .sec {
+        position: absolute;
+        height: 35%;
+        width: 80%;
+        top: 52%;
+        left: 10%;
+        background-color: aquamarine;
+        /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a35dd7deab782f8e5826f1_uzurv-preview.jpg);
+        background-size: cover;
+        background-position: center; */
+        border-radius: 50px;
+    }
+
+    .img2 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+
+
+
+    }
+
+    #fourth {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    #fourth>.txt2 {
+        position: absolute;
+        height: 30%;
+        width: 95%;
+        top: 20%;
+        left: 5%;
+        /* border: 1px solid black; */
+    }
+
+    .txt2>h1 {
+        color: rgb(2, 2, 199);
+        font-size: 30px;
+        font-weight: 300;
+        opacity: 1;
+    }
+
+    a {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(2, 2, 199);
+        text-decoration: none;
+        margin-top: 40px;
+
+    }
+
+    .ap {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 37%;
+        left: 45%;
+    }
+
+    #fifth {
+        position: relative;
+        height: 200vh;
+        width: 100%;
+
+
+
+    }
+
+    .third {
+        position: absolute;
+        height: 35%;
+        width: 80%;
+        top: 5%;
+        left: 10%;
+        background-color: aquamarine;
+        /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a3239ce9fd89996201548c_patina.jpg);
+        background-size: cover;
+        background-position: center; */
+        border-radius: 50px;
+    }
+
+    .img3 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+
+
+
+    }
+
+    .fourth {
+        position: absolute;
+        height: 35%;
+        width: 80%;
+        top: 52%;
+        left: 10%;
+        background-color: aquamarine;
+        /* background-image: url(https://uploads-ssl.webflow.com/62857b8fe2b5104ae6a452a7/62a35dd7deab782f8e5826f1_uzurv-preview.jpg);
+        background-size: cover;
+        background-position: center; */
+        border-radius: 50px;
+    }
+
+    .img4 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+
+
+
+    }
+
+    #sixth {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    #sixth .txt3 {
+        position: absolute;
+        height: 20%;
+        width: 80%;
+        /* border: 1px solid black; */
+        top: 10%;
+        left: 10%;
+    }
+
+    .txt3 h1 {
+        color: rgb(2, 2, 199);
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 1;
+
+    }
+
+
+    .navbar1 {
+        position: absolute;
+        top: 45%;
+        left: 0%;
+
+    }
+
+    .navbar1 ul {
+        list-style: none;
+    }
+
+    .navbar1 ul li {
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 300;
+        color: rgb(98, 98, 211);
+
+    }
+
+    .navbar2 {
+        position: absolute;
+        top: 45%;
+
+        left: 44%;
+
+    }
+
+    .navbar2 ul {
+        list-style: none;
+    }
+
+    .navbar2 ul li {
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 300;
+        color: rgb(98, 98, 211);
+
+    }
+
+    .navbar3 {
+        position: absolute;
+        top: 45%;
+        left: 76%;
+
+    }
+
+    .navbar3 ul {
+        list-style: none;
+    }
+
+    .navbar3 ul li {
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 300;
+        color: rgb(98, 98, 211);
+
+    }
+
+    ul li:nth-child(1) {
+        margin-bottom: 40px;
+        color: palevioletred;
+    }
+
+    .seventh {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(2, 2, 196);
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+
+
+    }
+
+    .video2 {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        height: 40vh;
+        width: 40%;
+
+
+    }
+
+    .last h3 {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+
+    }
+
+    .last h1 {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 45px;
+        /* font-weight: 300; */
+        color: white;
+
+    }
+
+    .last h4 {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        font-size: 25px;
+        font-weight: 300;
+        color: rgb(167, 163, 159);
+
+
+    }
+
+    .last h5 {
+        position: absolute;
+        top: 63%;
+        left: 10%;
+        font-size: 25px;
+        font-weight: 300;
+        color: rgb(167, 163, 159);
+
+
+    }
+
+    .fifth {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        color: white;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .cir {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        border: 1px solid white;
+        top: 10%;
+        right: 10%;
+
+        border-radius: 50%;
+    }
+
+    .m {
+        position: absolute;
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 300;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .c {
+        position: absolute;
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 300;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    
+.layer{
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+    z-index: 9;
+    top: -100%;
+
+}
+
+.layer>h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 300;
+    position: absolute;
+
+}
+.layer>h1:nth-child(1){
+    position: absolute;
+    left: 10%;
+    top: 30%;
+
+}
+.layer>h1:nth-child(2){
+    position: absolute;
+    left: 10%;
+
+    top: 43%;
+    
+}
+.layer>h1:nth-child(3){
+    position: absolute;
+    left: 10%;
+
+    top: 56%;
+    
+}
+
+}
