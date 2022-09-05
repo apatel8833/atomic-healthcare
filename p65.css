@@ -1659,7 +1659,7 @@ ul li:nth-child(1) {
     .largetxt {
         position: absolute;
         height: 70%;
-        width: 85%;
+        width: 90%;
         top: 30%;
         left: 10%;
         /* border: 1px solid black; */
@@ -1809,7 +1809,7 @@ ul li:nth-child(1) {
         position: absolute;
         height: 20px;
         width: 20px;
-        top: 37%;
+        top: 47%;
         left: 45%;
     }
 
@@ -1973,10 +1973,10 @@ ul li:nth-child(1) {
 
     .video2 {
         position: absolute;
-        top: 10%;
+        top: 18%;
         right: 5%;
-        height: 40vh;
-        width: 40%;
+        height: 37vh;
+        width: 37%;
 
 
     }
@@ -2103,5 +2103,5 @@ ul li:nth-child(1) {
     
     }
 
->>>>>>> 7c1046c9ebecf66fecf4dd31358a2a93cbbd2a09
+
 }
