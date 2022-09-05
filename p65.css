@@ -1809,7 +1809,7 @@ ul li:nth-child(1) {
         position: absolute;
         height: 20px;
         width: 20px;
-        top: 47%;
+        top: 52%;
         left: 45%;
     }
 
@@ -1973,10 +1973,10 @@ ul li:nth-child(1) {
 
     .video2 {
         position: absolute;
-        top: 18%;
+        top: 25%;
         right: 5%;
-        height: 37vh;
-        width: 37%;
+        height: 30vh;
+        width: 30%;
 
 
     }
