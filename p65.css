@@ -1901,6 +1901,7 @@ ul li:nth-child(1) {
         position: absolute;
         top: 45%;
         left: 0%;
+        width: 100px;
 
     }
 
@@ -1909,7 +1910,7 @@ ul li:nth-child(1) {
     }
 
     .navbar1 ul li {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px;
         font-weight: 300;
         color: rgb(98, 98, 211);
@@ -1920,7 +1921,7 @@ ul li:nth-child(1) {
         position: absolute;
         top: 45%;
 
-        left: 44%;
+        left: 34%;
 
     }
 
@@ -1929,7 +1930,7 @@ ul li:nth-child(1) {
     }
 
     .navbar2 ul li {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px;
         font-weight: 300;
         color: rgb(98, 98, 211);
@@ -1939,7 +1940,7 @@ ul li:nth-child(1) {
     .navbar3 {
         position: absolute;
         top: 45%;
-        left: 76%;
+        left: 70%;
 
     }
 
@@ -1948,7 +1949,7 @@ ul li:nth-child(1) {
     }
 
     .navbar3 ul li {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px;
         font-weight: 300;
         color: rgb(98, 98, 211);
